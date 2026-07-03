@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 5003;
+const port = process.env.PORT || 5003;
 // webserver
 app.use(express.static("frontend"));
 app.listen(port,function(){
