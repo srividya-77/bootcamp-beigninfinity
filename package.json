@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-beigninfinity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srividya-77/bootcamp-beigninfinity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/srividya-77/bootcamp-beigninfinity/issues"
+  },
+  "homepage": "https://github.com/srividya-77/bootcamp-beigninfinity#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
