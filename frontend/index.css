@@ -11,3 +11,16 @@ h1{
 #p2{
     color:rgb(155, 10, 10);
 }
+#nav{
+    /* border:3px solid rgb(17, 16, 16); */
+    background-color:rebeccapurple;
+    text-align:center;
+    height:30px;
+    padding-top:5px;
+    margin-bottom:10px;
+}
+#nav a{
+    text-decoration:none;
+    color:whitesmoke;
+    margin:0px 10px;
+}
