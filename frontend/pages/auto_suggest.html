@@ -17,6 +17,39 @@
             margin-right: 10px;
             padding: 0px 10px 10px 10px;
         }
+        #tagline{
+            color:darkgray
+        }
+        #search-container {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin: 0 auto;
+            padding: 0 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            background: white;
+        }
+        #search {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: transparent;
+        }
+        #search-icon {
+            margin-right: 8px;
+            font-size: 16px;
+        }
+        #suggestions-box{
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            background: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body><div id="main">
@@ -27,9 +60,14 @@
     <h1>Being<span style="color: #e3b341;">Infinity</span></h1>
     <p id ="tagline"> One Million phrases.Four algorithms.Prefix based Auto suggest</p>
     <br>
-<p>&#128269;
-    <input type="text" id="search" placeholder="start typing"></p>
+    <div id="search-container">
+        <span id="search-icon">&#128269;</span>
+        <input type="text" id="search" placeholder="start typing">
+    </div>
+    <div id="suggestions-box">
+        <p>Suggestions will appear here...</p>
+    </div>
     
-</div>
+</div>  
 </body>
 </html>
